@@ -45,5 +45,70 @@ footer {
 display: inline-block;
 width: 1200px;
 margin-left: calc( ( 100% - 1200px) / 2);
-background-color: red;
+
 }
+
+.container > .left {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    background-color: green;
+
+}
+
+.container > .right {
+    display: inline-block;
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+    background-color: blue;
+    
+}
+@media (max-width: 1300px) {
+.container {
+    width: 900px;
+    margin-left: calc( ( 100% - 900px) / 2);
+    
+}
+}
+
+@media (max-width: 1000px) {
+
+.container {
+    width: 700px;
+    margin-left: calc( (100% - 700px) / 2 );
+}
+.container > .left {
+    width: 100%;
+}
+.container > .right {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 60px;
+}
+}
+
+    @media (max-width: 800px) {
+        .small-container {
+            width: 500px;
+            margin-left: calc( (100% - 500px) / 2 );
+            background-color: lime;
+        }
+        .container {
+            width: 500px;
+            margin-left: calc( (100% - 500px) / 2 );
+        }
+    }
+
+            @media (max-width: 600px) {
+                .small-container {
+                    width: calc(100% - 40px);
+                    margin-left: 20px;
+                    background-color: lime;
+                }
+                .container {
+                    width: calc(100% - 40px);
+                    margin-left: 20px;
+                }
+            }
+            
