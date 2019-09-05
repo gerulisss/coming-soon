@@ -17,30 +17,42 @@ body * {
 }
 
 .hero  img {
-
+        display: inline-block;
+        width: 40px;
+        margin-bottom: 30px;
 }
 
 .hero  h1 {
     display: inline-block;
     width: 100%;
+    margin-bottom: 20px;
     font-size: 70px;
+    line-height: 80px;
     text-transform: uppercase;
+    
     
 }
 
 .hero  p {
     display: inline-block;
     width: 100%;
+    margin-bottom: 80px;
+    font-size: 25px;
+    line-height: 30px;
+    color: grey;
 }
 
 .hero  .clock {
     display: inline-block;
     width: 100%;
+    margin-bottom: 80px;
 }
 
 .hero  form {
     display: inline-block;
-    width: 90%;
+    width: 100%;
+    padding: 0 5%;
+    margin-bottom: 20px;
 }
 
 .hero  .mouse {
