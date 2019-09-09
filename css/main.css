@@ -19,7 +19,7 @@ body * {
 
 .hero  img {
         display: inline-block;
-        width: 40px;
+        width: 50px;
         margin-bottom: 30px;
 }
 
@@ -78,10 +78,12 @@ body * {
     margin-bottom: 20px;
     font-size: 24px;
     line-height: 30px;
+    text-transform: uppercase;
 }
 .main-content p {
     display: inline-block;
     width: 100%;
+    margin-bottom: 20px;
     font-size: 15px;
     line-height: 25px;
 }
@@ -94,6 +96,7 @@ footer {
     display: inline-block;
     width: 100%;
     background-color: #26B1EC;
+    color: #eee;
     padding-bottom: 60px;
     padding-top: 20px;
     text-align: center;
@@ -110,6 +113,11 @@ footer .fa {
     text-decoration: none;
 }
 
+footer > .container:nth-child(1) {
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+}
+
 footer .fa:hover {
     background-color: red;
     color: white;
@@ -117,12 +125,40 @@ footer .fa:hover {
     
 }
 
+footer .img {
+    display: inline-block;
+    margin-bottom: 20px;
+    height: 40px;
+}
+
+footer .info > div {
+    display: inline-block;
+
+}
+
+footer .info >div:nth-child(2) {
+    padding: 0 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    
+}
+
+footer p {
+    display: inline-block;
+    width: 60%;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
 .small-container {
     display: inline-block;
     width: 700px;
     margin: 0 calc( ( 100% - 700px) / 2);
-    margin-top: 0;
-    margin-bottom: 0;
 
 }
 
@@ -183,6 +219,14 @@ margin: 0 calc( ( 100% - 1200px) / 2);
             width: 500px;
             margin: 0 calc( (100% - 500px) / 2 );
         }
+
+        footer .info > div {
+        width: 100%;
+        margin-bottom: 10px;
+        }
+        footer .info > div:nth-child(2) {
+            border: none;
+        }
     }
 
             @media (max-width: 600px) {
@@ -195,6 +239,7 @@ margin: 0 calc( ( 100% - 1200px) / 2);
                 .container {
                     width: calc(100% - 40px);
                     margin-left: 20px;
+                    margin-right: 20px;
                 }
             }
             
