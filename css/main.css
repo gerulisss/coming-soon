@@ -11,7 +11,7 @@ body * {
     display: inline-block;
     width: 100%;
     background-color: #26B1EC;
-    background-image: url(../img/bg.jpg);
+    background-image: url("../img/bg.jpg");
     padding-bottom: 20px;
     padding-top: 60px;
     text-align: center;
