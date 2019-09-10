@@ -14,6 +14,7 @@ html {
 .hero {
     display: inline-block;
     width: 100%;
+    min-height: 100vh;
     background-color: #26B1EC;
     background-image: url("../img/bg.jpg");
     padding-bottom: 20px;
@@ -23,7 +24,6 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
     
 }
 
