@@ -1,0 +1,31 @@
+.clock {
+    display: inline-block;
+    width: 100%;
+    color: white;
+}
+
+.clock > .time {
+    display: inline-block;
+    width: 25%;
+    float: left;
+}
+
+.clock > .time > .value {
+    display: inline-block;
+    width: 100%;
+    font-size: 50px;
+    line-height: 40px;
+}
+
+.clock > .time > .title {
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+@media (max-width: 600px) {
+    .clock > .time {
+        width: 50%;
+        margin-bottom: 40px;
+}
