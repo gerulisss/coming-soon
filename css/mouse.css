@@ -37,3 +37,10 @@
 }
 }
 
+@media (max-width: 600px) {
+    .hero .small-container .mouse {
+        display: none;
+        
+    }
+    }
+

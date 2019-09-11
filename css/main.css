@@ -60,11 +60,34 @@ html {
     margin-bottom: 80px;
 }
 
-.hero  form {
-    display: inline-block;
-    width: 100%;
-    padding: 0 5%;
+input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 80%;
     margin-bottom: 20px;
+    padding: 0.85rem 0rem;
+}
+
+::placeholder {
+        color: white;
+}
+
+.btn {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #E91D62;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.btn > a {
+    color: white;
+    text-decoration: none;
+
 }
 
 .hero  .mouse {
@@ -270,4 +293,6 @@ margin: 0 calc( ( 100% - 1200px) / 2);
                 display: none;
             }
         }
+
+        
             
