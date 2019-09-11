@@ -67,10 +67,12 @@ input {
     width: 80%;
     margin-bottom: 20px;
     padding: 0.85rem 0rem;
+    outline: none;
 }
 
-::placeholder {
+.subscribe ::placeholder {
         color: white;
+        font-style: unset;
 }
 
 .btn {
@@ -154,13 +156,14 @@ footer > .container:nth-child(1) {
 }
 
 footer .fa:hover {
-    background-color: red;
-    color: white;
+    
+   background-color: #E91D62;
     
 }
 
+
 footer .fa-angle-up {
-    background-color: red;
+    background-color: #E91D62;
     color: white;
     position: absolute;
     top: -55px;

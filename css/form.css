@@ -1,0 +1,68 @@
+form {
+    display: inline-block;
+    width: 100%;
+}
+    form input {
+        display: inline-block;
+        width: calc(50% - 20px);
+        float: left;
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 20px;
+        border: none;
+        border-bottom: 1px solid #CCC;
+        outline: none;
+
+        /* animation-name: kaledos;
+        animation-duration: 2s;
+        animation-iteration-count: infinite; */
+    }
+        input::placeholder {
+            font-style: italic;
+        }
+        form input:nth-child(2) {
+            margin-left: 40px;
+        }
+    form textarea {
+        display: inline-block;
+        width: 100%;
+        min-height: 100px;
+        max-height: 300px;
+        margin-bottom: 40px;
+        resize: vertical;
+        font-size: 15px;
+        line-height: 25px;
+        border: none;
+        border-bottom: 1px solid #CCC;
+        outline: none;
+    }
+        textarea::placeholder {
+            font-style: italic;
+        }
+
+@keyframes kaledos {
+    0% {
+        outline-color: blue;
+    }
+    30% {
+        outline-color: green;
+    }
+    60% {
+        outline-color: red;
+    }
+    100% {
+        outline-color: blue;
+    }
+}
+
+@media (max-width: 600px) {
+    form input {
+        width: 100%;
+    }
+    form input:nth-child(2) {
+        margin-left: 0;
+    }
+}
+
+
+
