@@ -292,7 +292,14 @@ margin: 0 calc( ( 100% - 1200px) / 2);
             footer .fa-angle-up {
                 display: none;
             }
-        }
+        
+            .hero .small-container h1 {
+                font-size: 2rem;
+            }
 
+            .hero .small-container p {
+                font-size: 1rem;
+            }
+        }
         
             
