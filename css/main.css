@@ -83,7 +83,13 @@ input {
     padding-right: 30px;
     background-color: #E91D62;
     color: #fff;
+    border-radius: 2px;
+    box-shadow: 0px 1px 3px #0005;
     margin-bottom: 20px;
+}
+
+.btn:hover {
+    box-shadow: 0px 2px 4px #0009;
 }
 
 .btn > a {
@@ -168,9 +174,13 @@ footer .fa-angle-up {
     position: absolute;
     top: -55px;
     right: -22px;
-    box-shadow: 0 1px 2px black;
+    box-shadow: 0px 1px 3px #0005;
 
     
+}
+
+footer .fa-angle-up:hover {
+    box-shadow: 0px 2px 4px #0009;
 }
 
 footer .img {
